@@ -19,7 +19,7 @@ Adjusting the brightness of RGB lights is actually quite simple - it's done by a
 - 🔧 Low Power Consumption and High Brightness: High-efficiency LED light beads, both low power consumption and high brightness, make your light show shine for a long time.
 - 🤖 Intelligent control: compatible with a variety of control platforms, easily programmed through Arduino, ESP32, etc. to create a unique lighting experience.
 
-## 项目结构
+## Project structure
 ``` 
 │──  README.md                # Project description document
 │──  All_light                # Ring Full Light Source Code Folder
