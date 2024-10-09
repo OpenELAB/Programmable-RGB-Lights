@@ -1,37 +1,82 @@
 
-嗨！👋 这个项目是个超酷的可编程RGB灯小创意！RGB灯由红、绿、蓝三种基本颜色的LED组成，通过调节它们的亮度，就能混合出几乎任意颜色的光✨。想要浪漫的粉红色还是酷炫的紫蓝色？轻松搞定！🎨  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__ Hi! 👋__. This project is a super cool little programmable RGB light idea! RGB lights are made up of LEDs in the three basic colors of red, green, and blue, and by adjusting their brightness, they can be mixed to create almost any color of light ✨. Want romantic pink or cool purple-blue? Easy peasy! 🎨.
+Whether you want to create a cozy atmosphere or a sparkling light show, this RGB light project will allow you to play around and light up your creative inspiration! 🚀
+![QQ20241009-114523](https://github.com/user-attachments/assets/fe60ac31-4235-4fdc-ab48-8893f06db0f1)  
 
-RGB灯的亮度调节其实很简单——通过调整电流的大小来实现。我们通常用到的就是**PWM（脉冲宽度调制）**技术，它通过控制LED的“开关”时间比例来改变亮度🌈。你可以用单片机或其他控制芯片给PWM控制器发送控制信号，控制红、绿、蓝三种颜色的电流强度，PWM控制器会根据这些信号调整每种颜色的亮度，从而创造出各种炫彩的灯光效果💡。  
+Next, the following steps 📜 will take you deeper into the source code to easily get started with this project! Ready to get started? Let's get started 🚀!
+- 📝 Project Description
+- ✨ Functional Features
+- 🏗 Project Structure
+- 🚀 Installation and Operation
+# M5StickCPlus2_Slot Project
+## Project Information.
+Adjusting the brightness of RGB lights is actually quite simple - it's done by adjusting the amount of current. We usually use **PWM (Pulse Width Modulation)** technology, which changes the brightness by controlling the proportion of time that the LED is "switched on and off" 💡. You can use a microcontroller or other control chip to send control signals to the PWM controller to control the current intensity of the red, green and blue colors, the PWM controller will be based on these signals to adjust the brightness of each color, thus creating a variety of dazzling lighting effects 🌈.
 
-不管你是想营造温馨的氛围，还是打造一场闪耀的灯光秀，这个RGB灯项目都能让你玩出新花样，点亮你的创意灵感！🚀
-![QQ20241009-114523](https://github.com/user-attachments/assets/fe60ac31-4235-4fdc-ab48-8893f06db0f1)
-故事（原理）
+## Functional Features
 
-我们制作这个项目所需的材料
-1. Arduino UNO
-2. 可编程RGB灯
-3. 串口线
-4. 公对公杜邦线3根
-引脚介绍以及接线
-- VIN：应将VCC引脚连接到ESP32开发板或其他兼容开发板的3.3V电源引脚（或根据传感器规格选择适当的工作电压）。
-- GND：参考地。
-- RGB：发送控制信号
-- NC：不需要连接
-- 其他引脚：可编程的GPIO引脚，用于实现额外的功能，如测量准备和门限中断。
-[图片]
-具体步骤
-1. 使用串口线连接Arduino UNO。
-2. 按照接线图连接Arduino和可编程RGB灯，再将串口连接至电脑USB口。
-3. 选择想要实现的效果的相应文件，以此分别为点亮全部灯光、流水灯、跑马灯、呼吸灯。
-暂时无法在飞书文档外展示此内容
-暂时无法在飞书文档外展示此内容
-暂时无法在飞书文档外展示此内容
-暂时无法在飞书文档外展示此内容
-4. 以跑马灯为例，打开跑马灯例程文件，打开Marquee.ino
-[图片]
-5.  连接好Arduino和模块的线后，点击编译以及上传
-[图片]
-实验现象
-灯光依次亮起熄灭，并呈现出多种颜色
-[图片]
-[图片]
+- 🌈 Colorful: support a variety of color combinations, programmable control to achieve cool lighting effects, light up your creative space.
+- 🔧 DIY fun: the programmable design allows you to give free play to set various lighting modes to meet personalized needs.
+- 🔧 Low Power Consumption and High Brightness: High-efficiency LED light beads, both low power consumption and high brightness, make your light show shine for a long time.
+- 🤖 Intelligent control: compatible with a variety of control platforms, easily programmed through Arduino, ESP32, etc. to create a unique lighting experience.
+
+## 项目结构
+``` 
+│──  README.md                # 项目说明文件
+│──  M5StickCPlus2_slot       # 源代码文件夹
+  │──  M5StickCPlus2_slot.ino   # 源代码文件
+  │──  Slot.cpp                 # Slot功能实现文件
+  │──  SLot.h                   # Slot功能定义文件
+  │──  image                    # 图片素材文件夹
+    │──  slot_bar.h               # esp32图标
+    │──  slot_cherry.h            # 樱桃图标
+    │──  slot_lemon.h             # 柠檬图标 
+    │──  slot_openelab.h          # OpenELAB logo
+    │──  slot-orange.h            # 橘子图标
+    │──  slot_seven.h             # 数字7图标
+    │──  slot_symbols.h           # 图标数据
+```
+## Installation and operation
+
+### precondition
+Software relies on: __Arduino IDE__ etc.
+Hardware Requirements: Three DuPont cables, programmable RGB lights, serial cable, etc.
+Requirements: __Arduino library__ etc.
+### Arduino IDE Installation Steps
+```
+链接：稍后上传
+```
+### Pinout and Wiring
+- VIN: The VCC pin should be connected to the 3.3V power supply pin of the ESP32 development board or other compatible development board (or select the appropriate operating voltage according to the sensor specifications).
+- GND: Reference ground.
+- RGB：Send control signal
+- NC：No connection required
+- Other pins: Programmable GPIO pins for additional functions such as measurement preparation and threshold interrupts.
+### concrete step
+1. Connect the Arduino UNO using the serial cable.
+2. Follow the wiring diagram to connect the Arduino and the programmable RGB lights, then connect the serial port to the computer USB port.
+3. Select the corresponding file of the effect you want to achieve, so as to light up all the lights, running lights, running lights, breathing lights, respectively.
+4. As an example, open the Marquee routine file, open Marquee.ino
+
+### compile and run
+1、After completing the installation of the dependencies, open the good downloaded zip archive
+![image](https://github.com/user-attachments/assets/48946387-fb1f-484d-ba44-bc3cc3641ee7)
+
+2、Use a serial cable to connect to your computer and select Tools->Port to choose your port. 
+
+![QQ_1728447726462](https://github.com/user-attachments/assets/4ba17432-2bd4-4e50-86ff-4246dd5b8a97)
+
+3、Click on compile and then click on upload when the compilation is complete  
+
+![QQ_1728447814719](https://github.com/user-attachments/assets/72e4abd5-63c5-4bc8-ac12-eebb229b38f0)
+
+## How to contact the maintainer or developer
+__OpenELAB:__   
+[![OpenELAB_logo_resized_150](https://github.com/user-attachments/assets/5d3de375-359c-46a3-96bb-aaa211c6c636)](https://openelab.io)  
+__YouTube:__  
+[![youtube_logo_200x150](https://github.com/user-attachments/assets/d2365e7f-4ffe-4124-bf62-21eba19a71e4)](https://www.youtube.com/@OpenELAB)  
+__X :__  
+[![X_logo_150x150](https://github.com/user-attachments/assets/4ad5095f-2573-4791-9360-b355530093bf)](https://twitter.com/openelabio)  
+__FaceBook:__  
+[![facebook_logo_cropped_150x150](https://github.com/user-attachments/assets/52f2dc9a-a564-49a5-b72e-30eafbbc281f)](https://www.facebook.com/profile.php?id=61559154729457)  
+__Discord__  
+[![resized_image_150x150](https://github.com/user-attachments/assets/93ecd098-3391-45bb-9d80-b166c197a475)](https://discord.gg/VQspWyck)  
