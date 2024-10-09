@@ -21,23 +21,23 @@ Adjusting the brightness of RGB lights is actually quite simple - it's done by a
 
 ## 项目结构
 ``` 
-│──  README.md                # 项目说明文件
-│──  All_light                # 灯环全亮源代码文件夹
-  │──  Adafruit_NeoPixel.cpp    # 库文件
-  │──  Adafruit_NeoPixel.h      # 库文件
-  │──  All_light.ino            # 灯环全亮核心文件
-│──  Breathing_light          # 呼吸灯源代码文件夹
+│──  README.md                # Project description document
+│──  All_light                # Ring Full Light Source Code Folder
+  │──  Adafruit_NeoPixel.cpp    # library file
+  │──  Adafruit_NeoPixel.h      # library file
+  │──  All_light.ino            # Ring Lights Full Brightness Core Documentation
+│──  Breathing_light          # Breathing Light Source Code Folder
   │──  Adafruit_NeoPixel.cpp    
   │──  Adafruit_NeoPixel.h
-  │──  Breathing_light.ino      # 呼吸灯核心文件
-│──  Marquee                  # 跑马灯源代码文件夹
+  │──  Breathing_light.ino      # Breathing light core document
+│──  Marquee                  # Running Lights Source Code Folder
   │──  Adafruit_NeoPixel.cpp    
   │──  Adafruit_NeoPixel.h
-  │──  Marquee.ino              # 跑马灯核心文件
-│──  Water_light              # 流水灯源代码文件夹
+  │──  Marquee.ino              # Running Lights Core Documents
+│──  Water_light              # Flow Lamp Source Code Folder
   │──  Adafruit_NeoPixel.cpp    
   │──  Adafruit_NeoPixel.h
-  │──  Water_light.ino          # 流水灯核心文件
+  │──  Water_light.ino          # Flow lamp core document
 ```
 ## Installation and operation
 
@@ -47,7 +47,7 @@ Hardware Requirements: Three DuPont cables, programmable RGB lights, serial cabl
 Requirements: __Arduino library__ etc.
 ### Arduino IDE Installation Steps
 ```
-链接：稍后上传
+Link: upload later
 ```
 ### Pinout and Wiring
 - VIN: The VCC pin should be connected to the 3.3V power supply pin of the ESP32 development board or other compatible development board (or select the appropriate operating voltage according to the sensor specifications).
