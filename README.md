@@ -22,18 +22,22 @@ Adjusting the brightness of RGB lights is actually quite simple - it's done by a
 ## 项目结构
 ``` 
 │──  README.md                # 项目说明文件
-│──  M5StickCPlus2_slot       # 源代码文件夹
-  │──  M5StickCPlus2_slot.ino   # 源代码文件
-  │──  Slot.cpp                 # Slot功能实现文件
-  │──  SLot.h                   # Slot功能定义文件
-  │──  image                    # 图片素材文件夹
-    │──  slot_bar.h               # esp32图标
-    │──  slot_cherry.h            # 樱桃图标
-    │──  slot_lemon.h             # 柠檬图标 
-    │──  slot_openelab.h          # OpenELAB logo
-    │──  slot-orange.h            # 橘子图标
-    │──  slot_seven.h             # 数字7图标
-    │──  slot_symbols.h           # 图标数据
+│──  All_light                # 灯环全亮源代码文件夹
+  │──  Adafruit_NeoPixel.cpp    # 库文件
+  │──  Adafruit_NeoPixel.h      # 库文件
+  │──  All_light.ino            # 灯环全亮核心文件
+│──  Breathing_light          # 呼吸灯源代码文件夹
+  │──  Adafruit_NeoPixel.cpp    
+  │──  Adafruit_NeoPixel.h
+  │──  Breathing_light.ino      # 呼吸灯核心文件
+│──  Marquee                  # 跑马灯源代码文件夹
+  │──  Adafruit_NeoPixel.cpp    
+  │──  Adafruit_NeoPixel.h
+  │──  Marquee.ino              # 跑马灯核心文件
+│──  Water_light              # 流水灯源代码文件夹
+  │──  Adafruit_NeoPixel.cpp    
+  │──  Adafruit_NeoPixel.h
+  │──  Water_light.ino          # 流水灯核心文件
 ```
 ## Installation and operation
 
