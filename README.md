@@ -1,6 +1,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__ Hi! 👋__. This project is a super cool little programmable RGB light idea! RGB lights are made up of LEDs in the three basic colors of red, green, and blue, and by adjusting their brightness, they can be mixed to create almost any color of light ✨. Want romantic pink or cool purple-blue? Easy peasy! 🎨.
-Whether you want to create a cozy atmosphere or a sparkling light show, this RGB light project will allow you to play around and light up your creative inspiration! 🚀
+Whether you want to create a cozy atmosphere or a sparkling light show, this RGB light project will allow you to play around and light up your creative inspiration! 🚀  
+
 ![QQ20241009-114523](https://github.com/user-attachments/assets/fe60ac31-4235-4fdc-ab48-8893f06db0f1)  
 
 Next, the following steps 📜 will take you deeper into the source code to easily get started with this project! Ready to get started? Let's get started 🚀!
