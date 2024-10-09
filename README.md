@@ -55,6 +55,9 @@ Link: upload later
 - RGB：Send control signal
 - NC：No connection required
 - Other pins: Programmable GPIO pins for additional functions such as measurement preparation and threshold interrupts.
+
+![img_v3_02fg_f45c86a3-daa3-4cd9-a5e0-29b4eccc908g](https://github.com/user-attachments/assets/85d69e81-5d29-4847-a2c9-6c80886ce5a4)
+
 ### concrete step
 1. Connect the Arduino UNO using the serial cable.
 2. Follow the wiring diagram to connect the Arduino and the programmable RGB lights, then connect the serial port to the computer USB port.
