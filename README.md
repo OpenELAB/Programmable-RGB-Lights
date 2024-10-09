@@ -63,7 +63,7 @@ Link: upload later
 
 ### compile and run
 1、After completing the installation of the dependencies, open the good downloaded zip archive
-![image](https://github.com/user-attachments/assets/48946387-fb1f-484d-ba44-bc3cc3641ee7)
+![QQ_1728457842374](https://github.com/user-attachments/assets/d4cb7dbe-b520-4aec-bbba-1f9dd92f6777)
 
 2、Use a serial cable to connect to your computer and select Tools->Port to choose your port. 
 
