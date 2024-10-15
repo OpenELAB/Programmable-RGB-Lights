@@ -10,7 +10,7 @@ Next, the following steps 📜 will take you deeper into the source code to easi
 - 🏗 Project Structure
 - 🚀 Installation and Operation
 # M5StickCPlus2_Slot Project
-## Project Information.
+## Project Description
 Adjusting the brightness of RGB lights is actually quite simple - it's done by adjusting the amount of current. We usually use **PWM (Pulse Width Modulation)** technology, which changes the brightness by controlling the proportion of time that the LED is "switched on and off" 💡. You can use a microcontroller or other control chip to send control signals to the PWM controller to control the current intensity of the red, green and blue colors, the PWM controller will be based on these signals to adjust the brightness of each color, thus creating a variety of dazzling lighting effects 🌈.
 
 ## Functional Features
