@@ -88,6 +88,6 @@ __FaceBook:__
 [![facebook_logo_cropped_150x150](https://github.com/user-attachments/assets/52f2dc9a-a564-49a5-b72e-30eafbbc281f)](https://www.facebook.com/profile.php?id=61559154729457)  
 __Discord__  
 [![resized_image_150x150](https://github.com/user-attachments/assets/93ecd098-3391-45bb-9d80-b166c197a475)](https://discord.gg/VQspWyck)  
-## 材料购买链接
+## Material Purchase Links
 [Arduino UNO](https://openelab.io/products/original-arduino-uno-r3-development-board-atmega328p?_pos=2&_sid=b818f1e97&_ss=r)  
 [RGB Light Ring](https://openelab.io/products/led-ring-rgb?_pos=12&_sid=75dc754a1&_ss=r)
